@@ -3,56 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
-    <title>Codex Portfolio</title>
-    
-    <style>
-
-
-    </style>
-
+    <link rel="stylesheet" href="index.css" type="text/css">
+    <title>codexlandingpage</title>
 </head>
 <body>
-    <header>
-    <div>
-        <img width="200px"height="100px"src="codex.png" alt="codex logo">
-        <nav style="float:right">
-            <!-- <a href="#">Home</a> -->
-            <form action="">
-                <select>
-                    <option>Members</option>
-                    <option>Emilly Akankunda</option>
-                    <option>Brenda Kaganzi</option>
-                    <option>Solomon Adutia</option>
-                    <option>Jane Aguti</option>
-                    <option>Emmanuel Chekwech</option>
+    <header class="navbar">
+        <div>
+        <img width="200px"height="100px"src="codex.png" style="margin-left: 50px;" alt="codex logo">
+        <nav id="nav" style="float:right;">
+            <a href="#" style="margin-right: 50px; color: #021831;font-style: italic;"><b>Home</b></a>
+            <a href="#" style="margin-right: 50px; color: #021831;font-style: italic;"><b>About us</b></a>
+            <a href="#" style="margin-right: 50px; color: #021831;font-style: italic;"><b>Contact us</b></a>
+        
+            <form action="" class="select">
+                
+                    <select name="forma" onchange="location = this.options[this.selectedIndex].value;" style="width:200px; 
+                    height:40px; margin-left:-40px; background-color:rgb(161,156,156);border-color: rgb(161,156,156);
+                    font-size: 17px;font-style:oblique;">
+                    <!--style= "width:120px;border-radius:10px;height:35px;">-->
+                    <option hidden=""><strong>Team Members</strong></option>
+                    <a href="emie.html" target="_blank"><option value="emie.html">Emilly Akankunda</option></a>
+                    <a href="bree.html" target="_blank"><option value="bree.html">Brenda Kaganzi</option></a>
+                    <a href="solo.html" target="_blank"><option value="solo.html">Solomon Adutia</option></a>
+                    <a href="jane.html" target="_blank"><option value="jane.html">Jane Aguti</option></a>
+                    <a href="isaiah.html" target="_blank"><option value="isaiah.html">EmmanuelChekwech</option></a>
+                    
 
                 </select>
             </form>
-            <a href="#">Emilly</a>
-            <a href="#">Solomon</a>
-            <a href="#">Brenda</a>
-            <a href="#">Jane</a>
-            <a href="#">Emma</a>
 
 
         </nav>
+</div>
+
+    </header>
+    <div class="codex">
+        <img width="500px"height="300px" style="border-radius: 100%;" src="cod.jpg" alt="group photo">
     </div>
-</header>
-<div id="p">
-    <p > <img style="width:400px;height:300px;margin-left:20px; border-radius: 50%;" src="cod.jpg" alt="code"></p>
+    <div class="text">
+        <p>'We are a team of aspiring<br>web developers, Designers, <br>innovators and creators'</p>
+    </div>
+    <div id="icons"><br>
+        <a href="https://www.twitter.com/chekmasaiah"><img width="30px"height="30px" src="twitter.png" 
+            alt="twitter account"></a>
+        <a href="http://www.facebook.com/chekwech emma isaiah"><img width="25px"height="25px"src="facebook.png"
+             alt="facebook account"></a>
+        <a href="http://www.whatsapp.com"><img width="30px"height="30px"src="whatsapp.png" alt="whatsapp number"></a>
+        <a href="https://www.linkedin.com/in/chekwech-emmanuel-a7187aab/"><img width="30px"height="30px"src="link.png" 
+            alt="linkedin account"></a>
+    </div>
+    <footer>
+    <div class="copy">
+        
 
-</div>
 
+            <p style="margin-top:80px; color: #021831;font-style: italic;"><br>&copy Codex 2020 All Rights Reserved.</p>
 
-<div class="top">
-<p align="right" style="font-size:350%;padding-bottom: 400px; float: right;"><strong> 'We are an aspiring team <br>of web developers, Designers, <br>innovators and creators'</strong> </p>
-</div>
-
-<footer>
-<div>
-    <h3>What we do?</h3>
-</div>
+    </div>
 </footer>
 </body>
 </html>

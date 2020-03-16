@@ -1,0 +1,87 @@
+header{
+    background-color: rgb(161, 156, 156);
+    margin-left: -50px;
+/*
+    margin-top: -200px;
+    margin-right: -500px;
+    margin-left:-500px*/
+ }
+.navbar{
+    margin: 0px -55px 15px -35px;
+    /*margin-right: -10px;
+    margin-top: 0px;
+    margin-left: -15px;
+    margin-bottom: 0px;*/
+     background-color:rgb(161, 156, 156);
+}
+#nav{
+    margin-right: 10px;
+    text-decoration: none;
+    color: black;
+    opacity: 0.7;
+    margin-top: 40px;
+    
+}
+
+.codex{
+    margin-top: 50px;
+    margin-left: 50px;
+    
+}
+.text{
+    float:right;
+    margin-top: -300px;
+    font-size: 50px;
+    color: whitesmoke;
+    font-style: italic;
+    margin-right: 50px;
+    text-shadow:;
+}
+#icons{
+    margin-bottom: auto;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+body{
+    background-color: #021831;
+    padding-top: 0px;
+    width: 1300px;
+    margin-left: 10px;
+    margin-right: 50px;
+    margin-top: auto;
+    margin-bottom: -35px;
+    padding-bottom: 0px;
+}
+.copy{
+    clear: both;
+    color: red;
+    float: none !important;
+    background-color: rgb(161, 156, 156);
+    height: 85px;
+    text-align: center;
+    padding-bottom: -20px;
+    margin: -60px -55px -100px -35px;
+}
+a{
+    text-decoration: none;
+}
+.select{
+    margin-right: 50px;
+    float: right;
+    width: 100px;
+    border-radius: 15px;
+    padding: 10px; 
+    font-style: italic;
+    margin-top: -20px;
+    font-size: 20px;
+}
+.imageemma {
+    float:left;
+    width:300px;
+    height:300px;
+    margin-left:-50px;
+            margin-top:10px;
+            margin-bottom:140px;
+            border-width: 1px;
+            border-radius: 100%;
+}
